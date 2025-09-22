@@ -1,4 +1,4 @@
-export const CLOUD_PROJECT_NUMBER = process.env.NEXT_PUBLIC_CLOUD_PROJECT_NUMBER;
+export const CLOUD_PROJECT_NUMBER = process.env.NEXT_PUBLIC_CLOUD_PROJECT_NUMBER || '';
 
 export const SITE_BASE = inDebugMode()
   ? process.env.NEXT_PUBLIC_URL
