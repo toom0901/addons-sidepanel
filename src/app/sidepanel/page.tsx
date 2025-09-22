@@ -100,7 +100,7 @@ export default function Page() {
   useEffect(() => {
     async function initializeSidePanelClient() {
       const session = await meet.addon.createAddonSession({
-        cloudProjectNumber: CLOUD_PROJECT_NUMBER || '',
+        cloudProjectNumber: '344465558638',
       });
 
       const client = await session.createSidePanelClient();
