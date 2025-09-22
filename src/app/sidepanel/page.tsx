@@ -20,6 +20,7 @@ import {
 } from "@/components/ui/tooltip";
 
 export default function Page() {
+  console.log('CLOUD_PROJECT_NUMBER', CLOUD_PROJECT_NUMBER)
   const [sidePanelClient, setSidePanelClient] = useState<MeetSidePanelClient>();
   const [isConnected, setIsConnected] = useState(false);
   const [notiHistory, setNotiHistory] = useState<NotiHistory[]>([]);
