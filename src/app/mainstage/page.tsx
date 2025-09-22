@@ -20,7 +20,7 @@ export default function Page() {
    */
   async function initializeMainStageClient(): Promise<MeetMainStageClient> {
     const session = await meet.addon.createAddonSession({
-      cloudProjectNumber: CLOUD_PROJECT_NUMBER,
+      cloudProjectNumber: CLOUD_PROJECT_NUMBER || '',
     });
     return await session.createMainStageClient();
   }
