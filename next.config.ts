@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
         headers: [
           {
             key: "X-Frame-Options",
-            value: "SAMEORIGIN", // or remove this line to allow all
+            value: "", // or remove this line to allow all
           },
         ],
       },
